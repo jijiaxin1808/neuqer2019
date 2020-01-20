@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	
+	<style>
+	.t .titleui{padding:10px}
+	.t .titleui label{padding-right:30px;padding-bottom:10px}
+	.t .titleui .des {padding:10px;width: 400px;height: 30px;}	
+	.t .titleui .radio-box{position:relative;display:inline-block;box-sizing:border-box;padding-right:20px;cursor:pointer}
+	.t .titleui .radio-box .iradio-purple{float:left;margin-right:10px}
+	.t .titleui .check-box{position:relative;display:inline-block;box-sizing:border-box;padding-right:20px;cursor:pointer}
+	.t .titleui .check-box .icheckbox-purple{float:left;margin-right:10px}
+		
+		
+	.t .titleui .save{background-color:#D753B8;width:100px;height:40px;color:#fff;font-size:large;font-family:黑体;font-weight:500;
+		margin-left:215px;}
+
+
+	</style>
+
+</head>
+<body>
+	<form class="t" action="#">
+		<div class="titleui">
+			<label><strong>头像</strong></label>
+			<input type="file">
+		</div>
+		<div class="titleui">
+			<label><strong>昵称</strong></label>
+			<input type="text">
+		</div>
+		<div class="titleui">
+			<label><strong>学历</strong></label>	
+			<select class="ui-select">
+				<option value="college">大专</option>
+				<option value="undergraduate">本科</option>
+			</select>
+		</div>
+		<div class="titleui">
+			<label><strong>性别</strong></label>
+			<div class="radio-box">				
+				<input type="radio" id="sex-gender-man" name="sex" value="man">
+	    		<label for="man">男</label>
+			</div>
+			<div class="radio-box">				
+				<input type="radio" id="sex-women" name="sex" value="women">
+	    		<label for="women">女</label>
+			</div>
+			
+		</div>
+		<div class="titleui">
+			<label><strong>爱好</strong></label>
+			 <div class="check-box">
+			    <input type="checkbox" id="hobby-movie" name="hobby" value="movie">
+			    <label for="movie">电影</label>
+			 </div>
+			  <div class="check-box">
+			    <input type="checkbox" id="hobby-shoot" name="hobby" value="shoot" >
+			    <label for="shoot">摄影</label>
+			 </div>
+			  <div class="check-box">
+			    <input type="checkbox" id="hobby-music" name="hobby" value="music">
+			    <label for="music">音乐</label>
+			 </div>
+			 <div class="check-box">
+			    <input type="checkbox" id="hobby-read" name="hobby" value="read">
+			    <label for="read">阅读</label>
+			 </div>
+		</div>
+		<div class="titleui">
+			<label><strong>签名</strong></label>
+			<input type="text" class ="des">
+		</div>
+
+		<div class="titleui">
+			<button type="submit" class="save">保存</button>
+		</div>
+	</form> 
+</body>
+</html>

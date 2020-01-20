@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+	#ji th{
+		background-color: #f9f9f9;
+	}
+	#ji td{
+		text-align: center;
+	}
+	.zhuche td{
+		height="30"
+	}
+	#bc{
+		width="300" height="100" background-color:red;
+	}
+</style>
+</head>
+<body>
+	<table id="ji"  border="1" align="center" cellspacing="0" cellpadding="2"> 
+		<caption ><strong>运费详情</strong></caption>
+		<tr height="60">
+			<th width="130">区域</th>
+			<th>寄达地</th>
+			<th width="180">首重（元/1000g）</th>
+			<th width="180">续重（元/1000g）</th>
+		</tr>
+		<tr height="60">
+			<th rowspan="2">一区</th>
+			<td>浙江、上海、江苏</td>
+			<td>6</td>
+			<td>1</td>
+		</tr>
+		<tr height="60">
+			<td>江西、安徽</td>
+			<td>7</td>
+			<td>1</td>
+		</tr>
+		<tr height="60">
+			<th>二区</th>
+			<td>吉林、黑龙江、云南</td>
+			<td>10</td>
+			<td>6</td>
+		</tr>
+		<tr height="60">
+			<th>三区</th>
+			<td>新疆、西藏</td>
+			<td>15</td>
+			<td>10</td>
+		</tr>
+	</table>
+
+	<table align="center"  class="zhuche" margin-top:50px>
+		<tr>
+			<th width="100">头像</th>
+			<td ><input type="file" /> </td>
+		</tr>
+		<tr>
+			<th>昵称</th>
+			<td ><input type="text" /></td>
+		</tr>
+		<tr>
+			<th>学历</th>
+			<td >
+			<select name="" id="">
+				<option value="">
+					大专
+				</option>
+				<option value="">
+					本科
+				</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<th>性别</th>
+			<td >
+				<input type="radio" name="sex" />男
+				<input type="radio" name="sex" />女
+			</td>
+		</tr>
+		<tr>
+			<th>爱好</th>
+			<td height="30">
+				<input type="checkbox" name="int" />电影
+				<input type="checkbox" name="int" />摄影
+				<input type="checkbox" name="int" />音乐
+				<input type="checkbox" name="int" />阅读
+			</td>
+		</tr>
+		<tr>
+			<th>签名</th>
+			<td ><textarea name="" id="" cols="30" rows="10" height="30"></textarea></td>
+		</tr>
+		</tr>
+		<tr>
+			<th></th>
+			<td id="bc"><input type="image" src="1.png" value="保存"></td>
+		</tr>
+	</table>
+</body>
+</html>

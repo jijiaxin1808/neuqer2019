@@ -1,0 +1,83 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>第一次作业</title>
+    <style type="text/css">
+    table tr td,th{border:1px solid #000;}
+    </style>
+</head>
+<body>
+<div id="task1"> 
+    <table>
+        <caption>运费详情</caption>
+        <thead>
+        <tr>
+            <th>区域</th>
+            <th>寄达地</th>
+            <th>首重（元/1000g）</th>
+            <th>续重（元/1000g）</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">一区</td>
+            <td>浙江、上海、江苏</td>
+            <td>6</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>江西、安徽</td>
+            <td>7</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>二区</td>
+            <td>吉林、黑龙江、云南</td>
+            <td>10</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>三区</td>
+            <td>新疆、西藏</td>
+            <td>15</td>
+            <td>10</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="task2">
+    <form method="post" action="save.php">
+        <label for="icon">头像/</label>
+        <input type="file" name="fileBtn" id="icon" accept="image/*">
+        <br/>
+        <label for="nickname">昵称</label>
+        <input type="text" id="nickname">
+        <br/>
+        <label for="degree">学历</label>
+        <select>
+            <option value="大专" selected="selected">大专</option>
+            <option value="本科">本科</option>
+        </select>
+        <br/>
+        <label>性别</label>
+        <input type="radio" name="sex" id="male" value="male" checked="checked"/>
+        <label for="male">男</label>
+        <input type="radio" name="sex" id="female" value="female"/>
+        <label for="female">女</label>
+        <br/>
+        <label>爱好</label>
+        <input type="checkbox" name="hobby1" value="movie" id="movie" checked="checked"/>
+        <label for="movie">电影</label>
+        <input type="checkbox" name="hobby2" value="photography" id="photography"/>
+        <label for="photography">摄影</label>
+        <input type="checkbox" name="hobby3" value="music" id="music"/>
+        <label for="music">音乐</label>
+        <input type="checkbox" name="hobby4" value="read" id="read" checked="checked"/>
+        <label for="read">阅读</label>
+        <br/>
+        <label for="signature">签名</label>   
+        <textarea rows="10" cols="50" id="signature"></textarea>
+        <br/>
+        <input type="submit" value="保存" name="submitBtn"/>
+    </form>
+</div>
+</body>

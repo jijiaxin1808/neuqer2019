@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            margin: auto;
+        }
+        tr{
+            height: 50px;
+        }
+        tr > td:first-child{
+            width: 50px;
+        }
+        textarea{
+            resize: none;
+            width: 300px;
+            height: 110px;
+        }
+        .buttom{
+            height: 40px;
+            width: 110px;
+            background-color: rgb(216,81,184);
+            border: none;
+            font: bold 20px 黑体;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<form action="#">
+<table>
+    <tr>
+        <td>头像</td>
+        <td><input type="file"></td>
+    </tr>
+    <tr>
+        <td>昵称</td>
+        <td><input type="text" autofocus></td>
+    </tr>
+    <tr>
+        <td>学历</td>
+        <td><select name="xueli" >
+            <option value="dazhuan">大专</option>
+            <option value="benke">本科</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>性别</td>
+        <td>
+            <input type="radio" name="gender" id="male" value="male" checked="checked"> <label for="male">男</label>
+            <input type="radio" name="gender" id="female" value="female"> <label for="female">女</label>
+        </td>
+    </tr>
+    <tr>
+        <td>爱好</td>
+        <td>
+            <input type="checkbox" name="hobby" value="movie" id="movie" checked="checked"> <label for="movie">电影</label>
+            <input type="checkbox" name="hobby" value="photo" id="photo"> <label for="photo">摄影</label>
+            <input type="checkbox" name="hobby" value="music" id="music"> <label for="music">音乐</label>
+            <input type="checkbox" name="hobby" value="read" id="read" checked="checked"> <label for="read">阅读</label>
+        </td>
+    </tr>
+    <tr>
+        <td>签名</td>
+        <td>
+            <textarea name="sign" id="sign" cols="30" rows="10"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="submit" value="保存" class="buttom">
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
