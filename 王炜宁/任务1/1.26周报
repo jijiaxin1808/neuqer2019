@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>本周进度</h2>
+    <p>学习了css 中的 display, position, flex 这三个属性</p>
+    
+    <h2>下周计划</h2>
+    <p>继续学习html</p>
+</body>
+</html>
