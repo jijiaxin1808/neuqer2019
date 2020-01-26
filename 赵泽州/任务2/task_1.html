@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+    <style type="text/css">
+        .demo{
+            height: 100%;
+            display: flex;
+            flex-direction: column;            
+        }
+        /* flex不能被孙元素继承 */
+        .demo div{
+            margin: 5px 5px 5px 5px;
+            border-style: solid;
+            border-width:1px;
+            border-color: #000000
+        }
+        .body{
+            display: flex;  
+            line-height: 180px;
+        } 
+        .header{
+            line-height: 180px;
+            justify-content: space-between;
+            display: flex;
+            flex: 1;
+        }
+        .Logo{
+            width:100px;
+            height:100px;
+        }
+        .admin_name{
+            width:200px;
+            height:40px;
+            align-self: flex-end;
+        }
+        .footer{
+            line-height: 80px;
+            text-align: center;
+        }
+        .middle{
+            display:flex;     
+        }
+        .content{
+            flex-grow:1;
+            height:1000px;
+        }
+        .aside{
+            width:200px;
+            height:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">
+        <div class="header">
+            <div class="Logo">
+                Logo
+            </div>
+            <div class="admin_name">
+            </div>
+        </div>
+        <div class="middle">
+            <div class="content">宽度自适应</div>
+            <div class="aside">定宽200px</div>
+        </div>
+       <div class="footer">footer</div>
+    </div>
+</body>
+</html>
