@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			border:0;
+			margin:0 auto;
+		}
+		li{
+		list-style: none;
+		}
+		body{
+			background-image: url();
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-color: #fff;
+			background-attachment: scroll;
+		}
+		.header{
+			
+			padding-top: 4px;
+			padding-bottom: 4px;
+			height: 100px;
+			text-align:center;
+
+		}
+		.inner{
+			border-top: 3px solid yellow;
+			border-bottom: 1px solid gray;
+			display:inline-block;
+			width: 1200px;
+			height: 100px;
+			margin:0 auto;
+		}
+		.logo{
+			margin-top: 10px;
+			border-top: 3px solid blue;
+			border-bottom: 1px solid blue;
+			border-left: 1px solid blue;
+			border-right: 1px solid blue;
+			float:left;
+			height: 80px;
+			width: 100px;
+			text-align: center;
+			line-height: 80px;
+			}
+		.nav{
+			margin-top: 45px;
+			width: 150px;
+			height:30px;
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			right: 5px;
+			bottom:5px;
+			float: right;
+		}
+		.text{
+			float: right;
+		}
+		.flex{
+			display: flex;
+			flex-direction: column;
+		}
+		.lower{
+			padding-top: 4px;
+			padding-bottom: 4px;
+			height: 500px;
+			text-align:center;
+		}
+		.lower1{
+			border-top: 3px solid yellow;
+			border-bottom: 1px solid gray;
+			display:inline-block;
+			width: 1200px;
+			height: 500px;
+			margin:0 auto;
+			display: flex;
+		}
+		.lower11{
+			height:496px;
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			display: flex;
+			flex-grow: 1;
+		}
+		.lower12{
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			width: 200px;
+			height: 30PX;
+			float: right;
+			display: flex;
+		}
+		.bottom{
+			border-top: 3px solid yellow;
+			border-bottom: 1px solid gray;
+			display:inline-block;
+			width: 1200px;
+			height: 500px;
+			margin:0 auto;
+			display: flex;
+		}
+		.bottom1{
+			border-top: 3px solid yellow;
+			border-bottom: 1px solid gray;
+			display:inline-block;
+			width: 1200px;
+			height: 100px;
+			margin:0 auto;
+			
+		}
+
+	</style>
+</head>
+<body>
+	<div class="flex">
+	<div class="header"><!--导航栏-->
+		<div class="inner">
+		<div class="logo">LOGO</div>
+		<div class="nav">
+			<div class="text">用户名</div>
+			</div>
+		</div>
+	</div>
+	<div class="lower">
+		<div class="lower1">
+			<div class="lower11"></div>
+			<div class="lower12"></div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="bottom1"></div>
+	</div>
+	</div>
+</body>
+</html>
