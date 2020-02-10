@@ -1,0 +1,163 @@
+*{
+	font: normal 400 16px "微软雅黑"; 
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+li{
+		list-style: none;
+}
+.shortcut{
+	height:30px;
+    background-color: #e3e4e5;
+	text-align: center;
+	min-width: 1200px;
+	line-height:30px;
+	display: flex;
+	flex-wrap:nowrap;
+		justify-content: space-between;
+}
+
+.s1{
+	margin-left: 164.6px;
+	margin-right: 280px;
+	width: 80px;
+	
+}
+.s2{
+	width: 800px;
+	display: flex;
+	flex:1;
+	flex-wrap: nowrap;
+}
+li{
+	display: inline-block;
+}
+
+
+.topbanner {
+	width: 100%;
+	
+}
+.tb{
+	display: flex;	
+}
+.tb img{
+	flex:1;
+}
+.close-banner {
+    position: absolute;
+    right:0;
+    top:22px;
+    width: 100px;
+    height: 100px;
+    background: url(2.png) no-repeat;
+}
+.close-banner:hover {
+    background-position:bottom;
+}
+.tp{
+    position: relative;
+}
+
+.search{
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 100%;
+	display:flex;
+}
+.search1{
+	padding-top: 20px;
+	flex:2;
+}
+.search2{
+	flex:5;
+	display: flex;
+	flex-direction: column;
+}
+.search-input {
+	flex:2;
+    height: 36px;
+    padding-top: 25px;
+    display: flex;
+}
+.search-input input {
+    width: 450px;
+    height: 30px;
+    padding-left: 4px;
+    font: 400 14px/32px "microsoft yahei";
+    color: rgb(153, 153, 153);
+    border: 2px solid #B61D1D;
+    border-right: 0;
+
+}
+.si1 .button {
+
+	padding-left: 0;
+    width: 76px;
+    height: 30px;
+    color: #fff;
+    font: 400 16px/36px "微软雅黑";
+    cursor: pointer;
+}
+.text1 .t1{
+	font-size: 14px;color: rgb(100, 100, 100);
+}
+.text2 li a{
+	font-size: 14px;color: rgb(153, 153, 153);
+}
+#t2{
+	font-size: 14px; color:red;
+}
+.si2{
+	display: flex;
+	flex:1;
+}
+.si2 a:hover{
+	color: red;
+}
+.search3{
+	margin-top: 20px;
+	flex:3;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;  
+    padding: 20px 0 30px;
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+	width:30px;
+	height:30px;
+	margin-top: 3px;
+}
+.t3{
+	margin-left: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+ .t3 a{
+ 	font-size: 16px;color: rgb(100, 100, 100);
+    margin: 0 10px;
+}
+
+.t3 a:hover{
+	color: red;
+}
+
+.t4  a{
+	font-size: 12px;color: rgb(153, 153, 153);
+    padding: 10px 0;
+}
+.t4 a:hover{
+	color: red;
+}
+.bottom{
+	flex-wrap: nowrap;
+}
+.bottom a {
+    margin: 0 5px;
+}
